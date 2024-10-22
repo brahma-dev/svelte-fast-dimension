@@ -1,6 +1,6 @@
 import MagicString from 'magic-string'
 import { parse } from 'svelte-parse-markup'
-import { walk } from 'svelte/compiler'
+import { walk } from 'estree-walker'
 
 const bindingNames = [
   'clientWidth',
